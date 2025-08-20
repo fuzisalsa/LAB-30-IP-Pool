@@ -20,22 +20,22 @@ baik untuk client local atau yang lainya. IP yang akan didistribusikan secara ot
 
 ![m](po3.PNG)
 
-4. Tambahkan IP Pool pada DHCP Server.
-   IP > DHCP server
-   menambahkan ip pool yang telah di buat ke dhcp server pada ether2.
+4. Tambahkan IP Pool pada DHCP Server.    
+   IP > DHCP server    
+   menambahkan ip pool yang telah di buat ke dhcp server pada ether2.    
    
 ![m](po4.PNG)
 
 ![m](po5.PNG)
 
-5. Sekarang cek IP di Client, jika belum masuk range ipconfig /renew dulu di cmd.
+5. Sekarang cek IP di Client, jika belum masuk range ipconfig /renew dulu di cmd.   
 
 ![m](po6.PNG)
 
-6. Sekarang parameter Next pool, next pool ini digunakan jika pool1 sudah penuh, maka pool ip akan ke pool yang dipilih. Contohnya seperti
+6. Sekarang parameter Next pool, next pool ini digunakan jika pool1 sudah penuh, maka pool ip akan ke pool yang dipilih. Contohnya seperti  
    kita membuat pool1 rangenya 192.168.90.2-192.168.90.11 dan pool 2 192.168.90.12-192.168.90.21, jika DHCP server mengunakan pool1 dan pool1 sudah terisi/digunakan semua,
    maka client ke-11 akan mendapat range IP dari pool2.
-7. Dan sekarang jika range di pool1 sudah habis, maka client akan diberi IP dari pool2.
+7. Dan sekarang jika range di pool1 sudah habis, maka client akan diberi IP dari pool2.   
 
 # kesimpulan
 
@@ -45,5 +45,5 @@ adalah untuk membatasi range / deretan IP yang akan distribusikan secara otomati
 
 # sumber 
 
-Sumber : www.ahmadsuryadi.net
+Sumber : www.ahmadsuryadi.net       
 netdata : https://nds.id/
